@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Sunday Entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Point of Entry", "description": "Turk @ Hyde" }, "geometry": { "type": "Point", "coordinates": [ -122.4157196, 37.7825053 ] } },
+{ "type": "Feature", "properties": { "Name": "Point of Entry", "description": "Turk @ Larkin" }, "geometry": { "type": "Point", "coordinates": [ -122.4173666, 37.7823781 ] } },
+{ "type": "Feature", "properties": { "Name": "Point of Entry", "description": "Turk @ Polk" }, "geometry": { "type": "Point", "coordinates": [ -122.4189997, 37.7821199 ] } },
+{ "type": "Feature", "properties": { "Name": "Point of Entry", "description": "Van Ness @ Golden Gate" }, "geometry": { "type": "Point", "coordinates": [ -122.4202657, 37.7810515 ] } },
+{ "type": "Feature", "properties": { "Name": "Exit Only", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4201402, 37.7806042 ] } },
+{ "type": "Feature", "properties": { "Name": "Exit Only", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4138641, 37.7818844 ] } }
+]
+}

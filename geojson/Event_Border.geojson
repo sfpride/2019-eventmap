@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Event Border",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Sunday Event Site", "description": "(make this rainbow)<br>Roads are closed in\/out of this area." }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.414046, 37.7827957 ], [ -122.4205262, 37.7819308 ], [ -122.4195498, 37.7772415 ], [ -122.4160737, 37.7776485 ], [ -122.4147434, 37.7788018 ], [ -122.4133486, 37.7799211 ], [ -122.414046, 37.7827957 ] ] ] } },
+{ "type": "Feature", "properties": { "Name": "Saturday Event Site", "description": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.4200433, 37.7801128 ], [ -122.4195283, 37.7772542 ], [ -122.4160737, 37.7777215 ], [ -122.4133486, 37.7799847 ], [ -122.4136061, 37.7809608 ], [ -122.4200433, 37.7801128 ] ] ] } }
+]
+}

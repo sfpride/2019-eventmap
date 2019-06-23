@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[San Francisco LGBT Pride Parade & Celebration 2019]]></name>
+    <description/>
+    <Style id="icon-1500-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1500-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1500-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1500-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1500-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1577-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1577-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1577-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1624-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1624-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1624-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1624-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1624-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1783-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1783-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1783-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1783-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1783-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1783-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1783-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1783-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1783-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1783-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1783-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1783-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1783-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1783-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1783-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0097A7-1200-255-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffa79700</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0097A7-1200-255-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffa79700</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0097A7-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0097A7-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0097A7-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-097138-1200-255-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-097138-1200-255-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-097138-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-097138-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-097138-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-1-56-nodesc-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>0.001</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>38589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0F9D58-1-56-nodesc-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>0.0015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>38589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-1-56-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-1-56-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-1-56-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-7901-0-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>7.901</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-7901-0-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>11.8515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-7901-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-7901-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-7901-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-1200-255-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-1200-255-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-673AB7-1200-255-normal">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffb73a67</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-673AB7-1200-255-highlight">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffb73a67</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-673AB7-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-673AB7-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-673AB7-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-7CB342-1200-255-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-7CB342-1200-255-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-7CB342-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-7CB342-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-7CB342-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-9C27B0-1200-255-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffb0279c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-9C27B0-1200-255-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffb0279c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-9C27B0-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-9C27B0-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-9C27B0-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-A1C2FA-1200-255-nodesc-normal">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>fffac2a1</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-A1C2FA-1200-255-nodesc-highlight">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>fffac2a1</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-A1C2FA-1200-255-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A1C2FA-1200-255-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A1C2FA-1200-255-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-1200-255-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-1200-255-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-1200-255-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffb18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-1200-255-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffb18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-201-255-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>0.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-201-255-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>0.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-201-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-201-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-201-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FBC02D-1200-255-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff2dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FBC02D-1200-255-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff2dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FBC02D-1200-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FBC02D-1200-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FBC02D-1200-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF5252-1200-255-nodesc-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF5252-1200-255-nodesc-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF5252-1200-255-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF5252-1200-255-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF5252-1200-255-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFD600-3501-255-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>3.501</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff00d6ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFD600-3501-255-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>5.2515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff00d6ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFD600-3501-255">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFD600-3501-255-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFD600-3501-255-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Event Border</name>
+      <Placemark>
+        <name>Sunday Event Site</name>
+        <description><![CDATA[(make this rainbow)<br>Roads are closed in/out of this area.]]></description>
+        <styleUrl>#poly-0F9D58-7901-0</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.414046,37.7827957,0
+                -122.4205262,37.7819308,0
+                -122.4195498,37.7772415,0
+                -122.4160737,37.7776485,0
+                -122.4147434,37.7788018,0
+                -122.4133486,37.7799211,0
+                -122.414046,37.7827957,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Saturday Event Site</name>
+        <styleUrl>#poly-0F9D58-1-56-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4200433,37.7801128,0
+                -122.4195283,37.7772542,0
+                -122.4160737,37.7777215,0
+                -122.4133486,37.7799847,0
+                -122.4136061,37.7809608,0
+                -122.4200433,37.7801128,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sunday Entrances</name>
+      <Placemark>
+        <name>Point of Entry</name>
+        <description>Turk @ Hyde</description>
+        <styleUrl>#icon-1783-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4157196,37.7825053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry</name>
+        <description>Turk @ Larkin</description>
+        <styleUrl>#icon-1783-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4173666,37.7823781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry</name>
+        <description>Turk @ Polk</description>
+        <styleUrl>#icon-1783-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4189997,37.7821199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry</name>
+        <description>Van Ness @ Golden Gate</description>
+        <styleUrl>#icon-1783-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4202657,37.7810515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Exit Only</name>
+        <styleUrl>#icon-1500-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4201402,37.7806042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Exit Only</name>
+        <styleUrl>#icon-1500-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4138641,37.7818844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Saturday Entrances</name>
+      <Placemark>
+        <name>Point of Entry (Sat Only)</name>
+        <description>McAllister @ Hyde</description>
+        <styleUrl>#icon-1783-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.415343,37.7806988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry (Sat Only)</name>
+        <description>McAllister @ Larkin</description>
+        <styleUrl>#icon-1783-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4170381,37.7805037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry (Sat Only)</name>
+        <description>McAllister @ Polk</description>
+        <styleUrl>#icon-1783-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4186367,37.7802833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry</name>
+        <description>McAllister @ Van Ness</description>
+        <styleUrl>#icon-1783-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4200648,37.7801001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry</name>
+        <description>Grove @ Van Ness</description>
+        <styleUrl>#icon-1783-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4196989,37.778299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry</name>
+        <styleUrl>#icon-1783-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4196131,37.7777899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry</name>
+        <description>Hayes @ Polk</description>
+        <styleUrl>#icon-1783-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4181218,37.7776288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of entry</name>
+        <styleUrl>#icon-1783-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4150318,37.7791212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point of Entry</name>
+        <styleUrl>#icon-1783-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4140887,37.7799449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Saturday Exits</name>
+      <Placemark>
+        <name>Exit Only</name>
+        <styleUrl>#icon-1500-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.415485,37.7788196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Exit Only</name>
+        <styleUrl>#icon-1500-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4137899,37.7809056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sunday Stages + Venues</name>
+      <Placemark>
+        <name>Tantra / B Funky Stage</name>
+        <description><![CDATA[The Tantra/B Funky Electronic Dance Music Stage is a DJ showcase for the thriving dance community of San Francisco. Brought to you by the same people who have rocked Pink Saturday, Castro Halloween, Lovefest SF, Burning Man and How Weird, The Tantra/B Funky stage will take dancers through an afternoon of Trance, House, Future Swing, Mashups & more! With headliners like Donald Glaude, Khromata, SpekrFreks, & tons more! Dance loud and proud in the streets of San Francisco! Find us at Van Ness Ave & Golden Gate Ave.]]></description>
+        <styleUrl>#poly-673AB7-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4202413,37.7811432,0
+                -122.4202198,37.7810668,0
+                -122.4199891,37.7810923,0
+                -122.4200106,37.7811559,0
+                -122.4202413,37.7811432,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[A&PI Pride Pavilion & Community Stage]]></name>
+        <description><![CDATA[The A&PI LGBTQ Community Pride Stage 2019 is now on its 19th year of offering the best A&PI LGBTQI performers on one dynamic stage presentation. Over 15 amazing performing acts, deejays, artists and lots of dancing on the street! Hosted by Community Icon, Tita Aida, Drag Sensation, Estee Longah and other API LGBTQI celebrities and personalities. Check our SF Community Health Center ‘s Programs and Wellness Clinic plus HIV Testing and other services at the Pavilion.  For more info, www.sfcommunityhealth.org]]></description>
+        <styleUrl>#poly-E65100-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4190191,37.7817317,0
+                -122.4189306,37.7817444,0
+                -122.4189548,37.781861,0
+                -122.4190379,37.7818483,0
+                -122.4190191,37.7817317,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>INDIE OASIS Stage</name>
+        <description><![CDATA[For numerous years, Indie Oasis has been your dance destination for SF Pride! Featuring Indie, Remixes, Electro and Hard Dance! Prepare your shoes to hit the pavement in celebration of Love, Equality & Queers of all colors/ages/sexualities/abilities and genders, through music and dance all day. Featuring several of the best loved Bay Area DJs! Sponsored by Cat Club and Fringe, SF.]]></description>
+        <styleUrl>#poly-7CB342-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4172543,37.7823525,0
+                -122.4173602,37.7823345,0
+                -122.4173294,37.7821691,0
+                -122.4172073,37.7821861,0
+                -122.4172543,37.7823525,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Sundance Country Western Dance Corral</name>
+        <description>Sundance Saloon presents two-stepping and line dancing at the Sundance Country-Western Dance Corral. Drop by and soak in the festive vibe. Kick up your heels with easy line dance lessons at 2:00, 3:00 and 4:00. If you have two left feet, bring those, too! For more information, visit www.sundancesaloon.org.</description>
+        <styleUrl>#poly-FBC02D-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4180463,37.781292,0
+                -122.4178867,37.7813057,0
+                -122.4178934,37.7813725,0
+                -122.4180624,37.7813503,0
+                -122.4180463,37.781292,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Leather Alley</name>
+        <description>Interested in kink? Leather Alley envisions community and education simultaneously. Leather Alley is for those interested in or curious about Leather, BDSM, kink, and fetish. Leather Alley offers an opportunity to see demos and chat with experienced scene members, to learn about community organizations, and to foster friendship and family in a safe and supportive environment. Leather Alley also provides an environment for people to hang out and relax after the San Francisco Pride March with others from the kink/leather/fetish community. You must be 18+ to visit Leather Alley.</description>
+        <styleUrl>#poly-1A237E-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4154559,37.780902,0
+                -122.4153808,37.7809126,0
+                -122.4154707,37.7813207,0
+                -122.4155337,37.7813132,0
+                -122.4154559,37.780902,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Homo Hip Hop</name>
+        <description>Homo Hip Hop Stage produced by DJ Rapture and Get Ur Life Productions is excited to be a part of the celebration. And ready to provide an exciting event that showcases the incredible talent in the community, provides an unforgettable party experience for our patrons, all while promoting peace, unity, and safety.</description>
+        <styleUrl>#poly-0097A7-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4140385,37.7818896,0
+                -122.4142396,37.7818674,0
+                -122.4142168,37.7817995,0
+                -122.414025,37.7818335,0
+                -122.4140385,37.7818896,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Women's Stage]]></name>
+        <description>Proudly announcing SHOWTIME® as the presenting sponsor of the 2019 SF Pride Women’s Stage! Celebrate love, diversity and pride at the Women’s Stage! Located at McCallister and Leavenworth, indulge in 7 hours of stage performances by musicians, dancers, singers and DJs!</description>
+        <styleUrl>#poly-F48FB1-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4138427,37.7810188,0
+                -122.4140465,37.7809859,0
+                -122.4140116,37.7808937,0
+                -122.4138225,37.7809181,0
+                -122.4138427,37.7810188,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Sober Stage</name>
+        <description>The Castro Country Club’s Sober Stage is a drug and alcohol-free zone with entertainment and fun for all. Bring a blanket, picnic, and settle in for a day of celebration, with Live Music, DJs, and performances; something for everyone.</description>
+        <styleUrl>#poly-E65100-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4149063,37.7798169,0
+                -122.4148822,37.7797131,0
+                -122.4138241,37.7798604,0
+                -122.4138563,37.7799685,0
+                -122.4149063,37.7798169,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>The OFC LGBTQ Family Garden</name>
+        <description>Our Family Coalition is thrilled to offer the Family Garden once again on Sunday from 11am-4pm. This is a safe, fun space for children, youth, and their LGBTQ parents/caregivers during the Pride celebration. Arts and crafts, games, face painting, and resources will be offered to LGBTQ families. Come see old friends and meet new ones. It will be a blast for all, so be sure to stop by and check it out! The Family Garden is a smoke and alcohol-free space. Questions? Contact jeannette@ourfamily.org.</description>
+        <styleUrl>#poly-097138-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4174956,37.7801002,0
+                -122.4174298,37.7797663,0
+                -122.417171,37.779795,0
+                -122.4172407,37.7801289,0
+                -122.4174956,37.7801002,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Saturday/Sunday Restrooms</name>
+      <Placemark>
+        <name>Restrooms</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4192401,37.7802612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restrooms</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4184998,37.7799856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restrooms</name>
+        <description>Hyde @ McAllister</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4150559,37.7807064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restrooms</name>
+        <description>Fulton @ Hyde</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4153885,37.7799432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restrooms</name>
+        <description><![CDATA[Grove @ Larkin & Polk]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4174913,37.778544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restrooms</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4181029,37.7781031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restrooms</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4137148,37.780435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sunday Only Restrooms</name>
+      <Placemark>
+        <name>Restrooms</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4191758,37.7811982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restrooms</name>
+        <description>Golden Gate @ Larkin</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4175879,37.7814102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restrooms</name>
+        <description>Golden Gate @ Larkin + Hyde</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4163326,37.7815374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>First Aid</name>
+      <Placemark>
+        <name>First Aid</name>
+        <styleUrl>#icon-1624-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4179849,37.7783745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Aid (Sunday Only)</name>
+        <styleUrl>#icon-1624-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4157962,37.7815968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Saturday/Sunday Stages + Venues</name>
+      <Placemark>
+        <name>Soul of Pride Urban Global Stage</name>
+        <description><![CDATA[A Celebration and platform created for LGBTQ People of Color, that highlights our Music, Artistry, and Dance at The San Francisco LGBTQ Pride festival. To that end, over the course of the afternoon, the audience is taken on a musical & live performance journey around the world! W/Bay Area DJ’s Shellheart, Coruption, WEPA, JP, Trilce and Legendary DJ Lamont Young. One Love!]]></description>
+        <styleUrl>#poly-FFD600-3501-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4196539,37.778408,0
+                -122.4196244,37.7782798,0
+                -122.4193052,37.7783232,0
+                -122.4193374,37.7784525,0
+                -122.4196539,37.778408,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Main Stage</name>
+        <styleUrl>#poly-FF5252-1200-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4186387,37.7796954,0
+                -122.4184939,37.7789661,0
+                -122.4181881,37.779,0
+                -122.4183007,37.7797166,0
+                -122.4186387,37.7796954,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>The Don Julio Latin Stage</name>
+        <description><![CDATA[Join Club Papi as we expand the DON JULIO LATIN STAGE to two days this year with a major international talent lineup. For 22 years, Club Papi has produced the Latin Stage, and we’re excited to add Saturday into the mix. In 2019, we are thrilled to present headline acts AMARA LA NEGRA from VH1’s Love & Hip Hop Miami + two incredible Mexican singers and actresses MARJORIE DE SOUSA & NINEL CONDE. Rupaul’s Drag Race Star KIMORA BLAC hosts the stage, with Ms Lola. From LA VOZ USA we are pleased to present MARI and from Puerto Rico, Billboard nominated singer AMBAR! Visit WWW.CLUBPAPI.COM for more information about this year’s event and official parties!]]></description>
+        <styleUrl>#poly-9C27B0-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4200422,37.7800597,0
+                -122.4196519,37.7801169,0
+                -122.419676,37.7802356,0
+                -122.4200757,37.7801932,0
+                -122.4200422,37.7800597,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Faerie Freedom Village</name>
+        <description>Join the Faerie Freedom Village from 11am-6pm Saturday and Sunday for a variety of DJs, performances, lounging, communing, snacking, and fabulosity as we celebrate our 20th anniversary! We welcome monetary donations, which benefit Calamus Fellowship’s programs throughout the year, but no one is turned away for lack of funds. We located are outside the security fence across from the Art Institute by the BART/MUNI exit. We are an 18+ event.</description>
+        <styleUrl>#poly-F57C00-201-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4149267,37.7800488,0
+                -122.4149106,37.7798919,0
+                -122.4139236,37.7800233,0
+                -122.4139558,37.7801632,0
+                -122.4149267,37.7800488,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>CHEER SF</name>
+        <description>CHEER San Francisco and friends will be performing high-flying acrobatic stunts and dance routines raising money for those living with HIV/AIDS, breast cancer, and other life-challenging conditions.</description>
+        <styleUrl>#poly-7CB342-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4153124,37.7798469,0
+                -122.4155752,37.7798098,0
+                -122.4155498,37.7796847,0
+                -122.4152802,37.7797165,0
+                -122.4153124,37.7798469,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Queer Youth Space</name>
+        <description>Located in Civic Center Plaza, the Queer Youth Space is a safe environment for youth ages 12-24 to chill, get some snacks, and participate in activities. We have a community art project, crafts, lawn games, prizes, and more!</description>
+        <styleUrl>#poly-0097A7-1200-255</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4179328,37.7800313,0
+                -122.4178965,37.7798776,0
+                -122.4175143,37.7799264,0
+                -122.4175452,37.7800769,0
+                -122.4179328,37.7800313,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food Areas</name>
+      <Placemark>
+        <name>Food Area #1</name>
+        <styleUrl>#poly-A1C2FA-1200-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4165969,37.7794893,0
+                -122.4161436,37.7795381,0
+                -122.4161543,37.7795995,0
+                -122.4166077,37.7795445,0
+                -122.4165969,37.7794893,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Food Area #1</name>
+        <styleUrl>#icon-1577-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4164199,37.7795317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Food Area #1</name>
+        <styleUrl>#poly-A1C2FA-1200-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4166318,37.7797501,0
+                -122.416621,37.7797077,0
+                -122.4162321,37.7797522,0
+                -122.4162268,37.7798094,0
+                -122.4166318,37.7797501,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Food Area #1</name>
+        <styleUrl>#icon-1577-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4164333,37.7797501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Food Area #2</name>
+        <styleUrl>#poly-A1C2FA-1200-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4184889,37.7804413,0
+                -122.4184782,37.7803756,0
+                -122.4171371,37.7805261,0
+                -122.4171639,37.7805961,0
+                -122.4184889,37.7804413,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Food Area #2</name>
+        <styleUrl>#icon-1577-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4182878,37.7804349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Food Area #2</name>
+        <styleUrl>#icon-1577-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4173182,37.780533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Food Area #3</name>
+        <styleUrl>#poly-A1C2FA-1200-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.4175382,37.7803683,0
+                -122.417514,37.7803153,0
+                -122.4172002,37.7803661,0
+                -122.4172082,37.7804106,0
+                -122.4175382,37.7803683,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Food Area #3</name>
+        <styleUrl>#icon-1577-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4173732,37.7803619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
